@@ -4,7 +4,123 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+* {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+/* HEADER */
+header{
+  height: 50vh;
+  background: linear-gradient(#567EA0, #386186);
+  position: relative;
+}
+
+/* CONTENT */
+
+main {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+}
+.main-content{
+  position: absolute;
+  top: 150px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
+
+.column-left {
+  justify-content: right;
+}
+
+/* MAIN RIGHT */
+
+.iphone-picture {
+  display: block;
+}
+
+/* MAIN LEFT */
+
+
+.page-paragraph-icons{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.button-home {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#567EA0, #386186);
+  border-radius: 5%;
+  padding: 10px;
+  align-self: center;
+  border: none;
+  box-shadow: rgba(120, 125, 144, 0.35) 0px -5px -15px;;
+}
+.login {
+  color: white;
+  text-decoration: none;
+  text-transform: none;
+  margin: 0 8px;
+  font-weight: 400;
+}
+.page-paragraph{
+  background-image: url('./../images/frame.png');
+  background-size: cover;
+  padding: 30px;
+}
+
+.page-paragraph h2 {
+  color: #386186;
+  font-size: 20px;
+  font-weight: bold;
+  width: 210px;
+  margin-bottom: 20px;
+}
+
+.page-paragraph p {
+  margin-bottom: 20px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+/* FOOTER */
+
+footer ul {
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
+  justify-content: space-between;
+  justify-self: flex-end;
+  padding: 20px 0px;
+
+
+}
+
+footer ul li {
+  list-style-type: none;
+  font-size: 0.7rem;
+  font-weight: bold;
+
+}
+
+.blue {
+  color: #386186;
+}
+
+.grey {
+  color: #9c9ea0;
 }
