@@ -24,7 +24,7 @@ header{
 main {
   display: block;
   margin: 20px auto;
-  width: 80%;
+  width: 65%;
 }
 .main-content{
   position: absolute;
@@ -43,14 +43,13 @@ main {
   justify-content: right;
 }
 
-/* MAIN RIGHT */
+/* MAIN LEFT */
 
 .iphone-picture {
   display: block;
 }
 
-/* MAIN LEFT */
-
+/* MAIN RIGHT */
 
 .page-paragraph-icons{
   display: flex;
@@ -61,7 +60,7 @@ main {
 .button-home {
   display: flex;
   justify-content: center;
-  background: linear-gradient(#567EA0, #386186);
+  background: linear-gradient(#7997b0, #386186);
   border-radius: 5%;
   padding: 10px;
   align-self: center;
